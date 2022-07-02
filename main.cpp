@@ -1,6 +1,6 @@
-#include <iostream>
+#include <QtCore/QDebug>
 
 int main()
 {
-    std::cout << "Hello ubuntu cpp.... " << std::endl;
+    qDebug() << "Finally I run the cpp with QT libs..";
 }

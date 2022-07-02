@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "qdebug": "cpp"
+    },
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "/home/junjie/stanford",
+            "binaryPath": "/home/junjie/stanford/stanford",
+            "binaryArgs": []
+        }
+    ],
+    "C_Cpp.errorSquiggles": "Enabled"
+}
