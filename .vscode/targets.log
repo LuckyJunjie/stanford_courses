@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Jul  2 15:23:48 2022
+# Make data base, printed on Sun Jul  3 20:39:36 2022
 
 # Variables
 
@@ -43,7 +43,7 @@ SHELL = /bin/sh
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en","availableLanguages":{}}
 # environment
-_ = /home/junjie/.vscode-server/bin/4af164ea3a06f701fe3e89a2bcbb421d2026b68f/node
+_ = /home/junjie/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/node
 # makefile (from 'Makefile', line 16)
 CFLAGS = -pipe -O2 -Wall -W -D_REENTRANT -fPIC $(DEFINES)
 # makefile (from 'Makefile', line 1)
@@ -67,9 +67,9 @@ COMPRESS = gzip -9f
 # environment
 VSCODE_CWD = /home/junjie
 # environment
-SSH_CONNECTION = 183.129.20.98 53082 172.16.68.95 22
+SSH_CONNECTION = 122.231.225.217 49790 172.16.68.95 22
 # environment
-PATH = /home/junjie/.vscode-server/bin/4af164ea3a06f701fe3e89a2bcbb421d2026b68f/bin/remote-cli:/home/junjie/.nvm/versions/node/v14.19.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+PATH = /home/junjie/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/bin/remote-cli:/home/junjie/.nvm/versions/node/v14.19.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 # makefile (from 'Makefile', line 9)
 MAKEFILE = Makefile
 # environment
@@ -99,7 +99,7 @@ VSCODE_PIPE_LOGGING = true
 # environment
 PWD = /home/junjie/stanford
 # environment
-VSCODE_IPC_HOOK_CLI = /run/user/1000/vscode-ipc-d70ff204-46be-4112-9e31-ad7cc429328c.sock
+VSCODE_IPC_HOOK_CLI = /run/user/1000/vscode-ipc-d031c487-3d0e-4668-bfba-7448a5755bad.sock
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # makefile (from 'Makefile', line 26)
@@ -153,7 +153,7 @@ SHLVL = 3
 # makefile (from 'Makefile', line 13)
 CC = gcc
 # environment
-XDG_SESSION_ID = 15100
+XDG_SESSION_ID = 15265
 # environment
 USER = junjie
 # makefile
@@ -166,6 +166,8 @@ DESTDIR =
 LFLAGS = -Wl,-O1
 # default
 MAKE_COMMAND := make
+# environment
+OLDPWD = /home/junjie/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630
 # default
 .VARIABLES := 
 # makefile (from 'Makefile', line 34)
@@ -181,13 +183,13 @@ MAKEFLAGS = pqrR
 # environment
 MFLAGS = -pqrR
 # environment
-SSH_CLIENT = 183.129.20.98 53082 22
+SSH_CLIENT = 122.231.225.217 49790 22
 # environment
 MAIL = /var/mail/junjie
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
 # environment
-BROWSER = /home/junjie/.vscode-server/bin/4af164ea3a06f701fe3e89a2bcbb421d2026b68f/bin/helpers/browser.sh
+BROWSER = /home/junjie/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/bin/helpers/browser.sh
 # environment
 S_COLORS = auto
 # makefile (from 'Makefile', line 45)
@@ -237,7 +239,7 @@ DEL_DIR = rmdir
 # environment
 VSCODE_EXTHOST_WILL_SEND_SOCKET = true
 # variable set hash-table stats:
-# Load=113/1024=11%, Rehash=0, Collisions=13/142=9%
+# Load=114/1024=11%, Rehash=0, Collisions=13/143=9%
 
 # Pattern-specific Variable Values
 
@@ -276,6 +278,7 @@ VSCODE_EXTHOST_WILL_SEND_SOCKET = true
 /usr/lib/x86_64-linux-gnu/qt5/mkspecs/common/gcc-base-unix.conf:
 #  Implicit rule search has been done.
 #  Last modified 2018-04-04 12:14:40
+ 
 #  File has been updated.
 #  Successfully updated.
 
@@ -284,7 +287,6 @@ compiler_moc_predefs_clean:
 #  Modification time never checked.
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 333):
- 
 	-$(DEL_FILE) moc_predefs.h
 
 /usr/lib/x86_64-linux-gnu/qt5/mkspecs/modules/qt_lib_widgets_private.pri:
@@ -380,7 +382,7 @@ first: all
 
 stanford: main.o
 #  Implicit rule search has not been done.
-#  Last modified 2022-07-02 15:20:40.242798749
+#  Last modified 2022-07-02 16:04:25.125154294
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 137):
@@ -416,7 +418,7 @@ uninstall: FORCE
 
 Makefile: stanford.pro /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++/qmake.conf /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/spec_pre.prf /usr/lib/x86_64-linux-gnu/qt5/mkspecs/common/unix.conf /usr/lib/x86_64-linux-gnu/qt5/mkspecs/common/linux.conf /usr/lib/x86_64-linux-gnu/qt5/mkspecs/common/sanitize.conf /usr/lib/x86_64-linux-gnu/qt5/mkspecs/common/gcc-base.conf /usr/lib/x86_64-linux-gnu/qt5/mkspecs/common/gcc-base-unix.conf /usr/lib/x86_64-linux-gnu/qt5/mkspecs/common/g++-base.conf /usr/lib/x86_64-linux-gnu/qt5/mkspecs/common/g++-unix.conf /usr/lib/x86_64-linux-gnu/qt5/mkspecs/qconfig.pri /usr/lib/x86_64-linux-gnu/qt5/mkspecs/modules/qt_lib_accessibility_support_private.pri /usr/lib/x86_64-linux-gnu/qt5/mkspecs/modules/qt_lib_bootstrap_private.pri /usr/lib/x86_64-linux-gnu/qt5/mkspecs/modules/qt_lib_concurrent.pri /usr/lib/x86_64-linux-gnu/qt5/mkspecs/modules/qt_lib_concurrent_private.pri /usr/lib/x86_64-linux-gnu/qt5/mkspecs/modules/qt_lib_core.pri /usr/lib/x86_64-linux-gnu/qt5/mkspecs/modules/qt_lib_core_private.pri /usr/lib/x86_64-linux-gnu/qt5/mkspecs/modules/qt_lib_dbus.pri /usr/lib/x86_64-linux-gnu/qt5/mkspecs/modules/qt_lib_dbus_private.pri /usr/lib/x86_64-linux-gnu/qt5/mkspecs/modules/qt_lib_devicediscovery_support_private.pri /usr/lib/x86_64-linux-gnu/qt5/mkspecs/modules/qt_lib_egl_support_private.pri /usr/lib/x86_64-linux-gnu/qt5/mkspecs/modules/qt_lib_eglfs_kms_support_private.pri /usr/lib/x86_64-linux-gnu/qt5/mkspecs/modules/qt_lib_eglfsdeviceintegration_private.pri /usr/lib/x86_64-linux-gnu/qt5/mkspecs/modules/qt_lib_eventdispatcher_support_private.pri /usr/lib/x86_64-linux-gnu/qt5/mkspecs/modules/qt_lib_fb_support_private.pri /usr/lib/x86_64-linux-gnu/qt5/mkspecs/modules/qt_lib_fontdatabase_support_private.pri /usr/lib/x86_64-linux-gnu/qt5/mkspecs/modules/qt_lib_glx_support_private.pri /usr/lib/x86_64-linux-gnu/qt5/mkspecs/modules/qt_lib_gui.pri /usr/lib/x86_64-linux-gnu/qt5/mkspecs/modules/qt_lib_gui_private.pri /usr/lib/x86_64-linux-gnu/qt5/mkspecs/modules/qt_lib_input_support_private.pri /usr/lib/x86_64-linux-gnu/qt5/mkspecs/modules/qt_lib_kms_support_private.pri /usr/lib/x86_64-linux-gnu/qt5/mkspecs/modules/qt_lib_linuxaccessibility_support_private.pri /usr/lib/x86_64-linux-gnu/qt5/mkspecs/modules/qt_lib_network.pri /usr/lib/x86_64-linux-gnu/qt5/mkspecs/modules/qt_lib_network_private.pri /usr/lib/x86_64-linux-gnu/qt5/mkspecs/modules/qt_lib_opengl.pri /usr/lib/x86_64-linux-gnu/qt5/mkspecs/modules/qt_lib_opengl_private.pri /usr/lib/x86_64-linux-gnu/qt5/mkspecs/modules/qt_lib_openglextensions.pri /usr/lib/x86_64-linux-gnu/qt5/mkspecs/modules/qt_lib_openglextensions_private.pri /usr/lib/x86_64-linux-gnu/qt5/mkspecs/modules/qt_lib_platformcompositor_support_private.pri /usr/lib/x86_64-linux-gnu/qt5/mkspecs/modules/qt_lib_printsupport.pri /usr/lib/x86_64-linux-gnu/qt5/mkspecs/modules/qt_lib_printsupport_private.pri /usr/lib/x86_64-linux-gnu/qt5/mkspecs/modules/qt_lib_service_support_private.pri /usr/lib/x86_64-linux-gnu/qt5/mkspecs/modules/qt_lib_sql.pri /usr/lib/x86_64-linux-gnu/qt5/mkspecs/modules/qt_lib_sql_private.pri /usr/lib/x86_64-linux-gnu/qt5/mkspecs/modules/qt_lib_testlib.pri /usr/lib/x86_64-linux-gnu/qt5/mkspecs/modules/qt_lib_testlib_private.pri /usr/lib/x86_64-linux-gnu/qt5/mkspecs/modules/qt_lib_theme_support_private.pri /usr/lib/x86_64-linux-gnu/qt5/mkspecs/modules/qt_lib_widgets.pri /usr/lib/x86_64-linux-gnu/qt5/mkspecs/modules/qt_lib_widgets_private.pri /usr/lib/x86_64-linux-gnu/qt5/mkspecs/modules/qt_lib_xcb_qpa_lib_private.pri /usr/lib/x86_64-linux-gnu/qt5/mkspecs/modules/qt_lib_xml.pri /usr/lib/x86_64-linux-gnu/qt5/mkspecs/modules/qt_lib_xml_private.pri /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/qt_functions.prf /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/qt_config.prf /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++/qmake.conf /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/spec_post.prf .qmake.stash /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/exclusive_builds.prf /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/toolchain.prf /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/default_pre.prf /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/resolve_config.prf /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/default_post.prf /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/warn_on.prf /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/qt.prf /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/resources.prf /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/moc.prf /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/unix/opengl.prf /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/unix/thread.prf /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/qmake_use.prf /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/file_copies.prf /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/testcase_targets.prf /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/exceptions.prf /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/yacc.prf /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/lex.prf stanford.pro /usr/lib/x86_64-linux-gnu/libQt5Gui.prl /usr/lib/x86_64-linux-gnu/libQt5Core.prl
 #  Implicit rule search has not been done.
-#  Last modified 2022-07-02 15:23:48.516992698
+#  Last modified 2022-07-03 20:39:36.278023716
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 214):
@@ -493,7 +495,7 @@ moc_predefs.h: /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/data/dummy.cpp
 # Not a target:
 main.cpp:
 #  Implicit rule search has been done.
-#  Last modified 2022-07-02 15:20:38.026725818
+#  Last modified 2022-07-02 16:04:21.713042002
 #  File has been updated.
 #  Successfully updated.
 
@@ -563,13 +565,13 @@ compiler_moc_predefs_make_all: moc_predefs.h
 /usr/lib/x86_64-linux-gnu/qt5/mkspecs/modules/qt_lib_testlib.pri:
 #  Implicit rule search has been done.
 #  Last modified 2021-08-19 21:17:52
+ 
 #  File has been updated.
 #  Successfully updated.
 
 /usr/lib/x86_64-linux-gnu/qt5/mkspecs/modules/qt_lib_glx_support_private.pri:
 #  Implicit rule search has been done.
 #  Last modified 2021-08-19 21:17:52
- 
 #  File has been updated.
 #  Successfully updated.
 
@@ -812,7 +814,7 @@ compiler_moc_source_clean:
 
 main.o: main.cpp
 #  Implicit rule search has not been done.
-#  Last modified 2022-07-02 15:20:40.054792562
+#  Last modified 2022-07-02 16:04:24.929147843
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 352):
@@ -853,6 +855,7 @@ compiler_lex_clean:
 
 /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/testcase_targets.prf:
 #  Implicit rule search has been done.
+ 
 #  Last modified 2018-04-04 12:14:40
 #  File has been updated.
 #  Successfully updated.
@@ -868,7 +871,6 @@ distdir: FORCE
 #  Modification time never checked.
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 302):
- 
 	@test -d $(DISTDIR) || mkdir -p $(DISTDIR)
 	$(COPY_FILE) --parents $(DIST) $(DISTDIR)/
 	$(COPY_FILE) --parents /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/data/dummy.cpp $(DISTDIR)/
@@ -942,6 +944,6 @@ install: FORCE
 # strcache performance: lookups = 338 / hit rate = 64%
 # hash-table stats:
 # Load=120/8192=1%, Rehash=0, Collisions=1/338=0%
-# Finished Make data base on Sat Jul  2 15:23:48 2022
+# Finished Make data base on Sun Jul  3 20:39:36 2022
 
  
